@@ -3,6 +3,7 @@ html {
 }
 
 * {
+    transition: all 0.3s;
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
@@ -359,7 +360,14 @@ a.enlace {
 
     .nav {
         display: inline;
+        
     }
+    .container-fluid {
+        justify-content: center !important
+    }
+    
+        
+    
 
     .logo {
         margin: auto;
@@ -473,6 +481,7 @@ div p{
     animation-name: lay;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    
   }
   @keyframes lay {
     
